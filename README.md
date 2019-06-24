@@ -8,3 +8,5 @@ This style of development makes a *bad* situation *worse*. It adds complexity to
 There is an alternative, however. All good developers know that a system should be self-testing, that you should write unit and integration tests. Well, this can be done with legacy systems, if you know how to mock complicated legacy code, so that you can test the changes you are making.
 
 I won't go into detail (as there's much more to it that getting your changes tested), but you should read [Working Effectively with Legacy Code](https://www.amazon.co.uk/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052). A lot of the "Subclassing" tequniques in this book can be replicated using [PowerMock](https://github.com/powermock/powermock/wiki). This repo contains examples of the techniques that you can use to test legacy code, without having to read the book - but you should still read it as it describes how you can de-legacy your code by refactoring!
+
+Checkout my [Slides](http://slides.com/samuelbentley/working-effectively-with-legacy-code#/) for a more comprehensive discussion!
